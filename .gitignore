@@ -1,0 +1,6 @@
+.DS_Store
+.swiftpm
+.build
+*.gz
+*.log
+battery-logger
