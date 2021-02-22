@@ -16,7 +16,7 @@ Run `swift build -c release` to build the logger tool; it will be placed at `.bu
 
 ## Setting up automatic logging
 
-The logger itself doesn't know about periodic execution; it simply prints data to standard output. You can leverage [launchd](https://www.launchd.info/) to run it as a periodic job without output saved to a file.
+The logger itself doesn't know about periodic execution; it simply prints data to standard output. You can leverage [launchd](https://www.launchd.info/) to run it as a periodic job with output saved to a file.
 
 (If you'd rather not bother with the setup below, there appear to be some [GUI tools](https://apple.stackexchange.com/q/19740/8318) that you can use to configure launchd instead.)
 
